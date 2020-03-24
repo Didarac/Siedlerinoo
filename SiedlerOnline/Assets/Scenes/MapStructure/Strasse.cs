@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Strasse : Edge
 {
-    public Strasse(Player _player, int position) {
-        //wem gehört die Strasse
-        //wo ist die Strasse
+    Player player;
+    public Strasse(Player _player) {
+        this.player = _player;
+
     }
 
-    public bool isStrasse() {
+    public override bool isStrasse() {
         return true;
     }
 }

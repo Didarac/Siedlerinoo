@@ -5,9 +5,13 @@ using UnityEngine;
 //abstrakte Klasse
 public class Edge
 {
-    private Strasse strasse;
+ 
 
-    public bool isStrasse() {
-        return strasse.isStrasse();
+    public abstract bool isStrasse() {
+    
+    }
+
+    public abstract bool isEdge(){
+       
     }
 }

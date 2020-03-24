@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scenes\MapStructure\Feld.cs" />
      <Compile Include="Assets\Scenes\MapStructure\Hafen.cs" />
      <Compile Include="Assets\Scenes\MapStructure\Knoten.cs" />
+     <Compile Include="Assets\Scenes\MapStructure\MeerEdge.cs" />
      <Compile Include="Assets\Scenes\MapStructure\Siedlung.cs" />
      <Compile Include="Assets\Scenes\MapStructure\Stadt.cs" />
      <Compile Include="Assets\Scenes\MapStructure\Strasse.cs" />

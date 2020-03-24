@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//abstrakte Klasse
-public class Edge
+public class Strasse : Edge
 {
-    private Straße strasse;
+    public Strasse(String farbe, int position) {
+        //wem gehört die Strasse
+        //wo ist die Strasse
+    }
 
     public bool isStrasse() {
         return strasse.isStrasse();

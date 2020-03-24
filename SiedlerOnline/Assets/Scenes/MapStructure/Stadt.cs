@@ -20,7 +20,5 @@ public class Stadt : Building
         return true;
     }
 
-    public Player getPlayer(){
-        return this.player;
-    }
+
 }

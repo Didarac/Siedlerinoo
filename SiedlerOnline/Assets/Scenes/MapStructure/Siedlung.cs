@@ -20,7 +20,5 @@ public class Siedlung : Building
         return false;
     }
 
-    public Player getPlayer(){
-        return this.player;
-    }
+
 }

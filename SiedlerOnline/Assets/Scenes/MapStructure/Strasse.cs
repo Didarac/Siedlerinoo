@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Strasse : Edge
 {
-    public Strasse(String farbe, int position) {
+    public Strasse(Player _player, int position) {
         //wem gehört die Strasse
         //wo ist die Strasse
     }
 
     public bool isStrasse() {
-        return strasse.isStrasse();
+        return true;
     }
 }

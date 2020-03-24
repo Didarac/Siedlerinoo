@@ -5,7 +5,7 @@ using UnityEngine;
 //abstrakte Klasse
 public class Edge
 {
-    private Straße strasse;
+    private Strasse strasse;
 
     public bool isStrasse() {
         return strasse.isStrasse();

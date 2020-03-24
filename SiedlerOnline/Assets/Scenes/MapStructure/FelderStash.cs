@@ -10,8 +10,6 @@ public class FelderStash
    IntegerTyp:          1       2       3       4       5           0
    Anzahl:              4       4       4       3       3           1
    positionen im Stash: 0-3     4-7     8-11    12-14   15-17       18
-
-
    */
    private bool[] felder;
    private System.Random rnd;

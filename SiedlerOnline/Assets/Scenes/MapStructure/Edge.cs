@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //abstrakte Klasse
-public class Edge
+public abstract class Edge
 {
  
 

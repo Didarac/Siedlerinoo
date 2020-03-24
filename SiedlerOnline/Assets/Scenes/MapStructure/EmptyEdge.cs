@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EmptyEdge : MonoBehaviour
+public class EmptyEdge : Edge
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+
+
+    public override bool isStrasse() {
+        return false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public override bool isEdge(){
+        return true;
     }
 }

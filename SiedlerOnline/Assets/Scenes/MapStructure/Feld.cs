@@ -2,17 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Feld : MonoBehaviour
+public class Feld
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+ private int nummer;
+ private int type;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ private bool hasGoetz;
+
+ public Feld (int _nummer, int _type){
+     this.nummer = _nummer;
+     this.type = _type;
+     this.hasGoetz = false;
+ }
+
+ public int getNummer(){
+     return this.nummer;
+ }
+
+ public int getType(){
+     return this.type;
+ }
+
+ public bool getHasGoetz(){
+     return this.hasGoetz;
+ }
+
+ public void setHasGoetz(bool _goetzHere){
+     this.hasGoetz = _goetzHere;
+ }
+
+
 }

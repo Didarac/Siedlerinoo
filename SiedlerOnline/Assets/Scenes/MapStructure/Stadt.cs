@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stadt : MonoBehaviour
+public class Stadt : Building
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+     public Stadt (Player _player){
+        this.player = _player;
+    }
+    public override isEmpty(){
+        return false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public override isSiedlung(){
+        return false;
+    }
+
+    public override isStadt(){
+        return true;
     }
 }

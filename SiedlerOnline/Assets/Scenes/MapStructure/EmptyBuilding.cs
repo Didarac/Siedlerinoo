@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EmptyBuilding : MonoBehaviour
+public class EmptyBuilding : Building
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+     
+    public override isEmpty(){
+        return true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public override isSiedlung(){
+        return false;
+    }
+
+    public override isStadt(){
+        return false;
     }
 }

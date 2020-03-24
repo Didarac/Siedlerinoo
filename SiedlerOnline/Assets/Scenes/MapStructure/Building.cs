@@ -16,4 +16,8 @@ public abstract class Building
     public virtual bool isStadt(){
         return false;
     }
+
+    public Player getPlayer(){
+        return this.player;
+    }
 }

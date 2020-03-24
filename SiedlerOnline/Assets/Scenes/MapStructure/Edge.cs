@@ -5,7 +5,7 @@ using UnityEngine;
 //abstrakte Klasse
 public abstract class Edge
 {
- 
+    private Player player;
 
     public virtual bool isStrasse() {
         return false;
@@ -13,5 +13,9 @@ public abstract class Edge
 
     public virtual bool isEdge(){
        return true;
+    }
+
+    public Player getPlayer(){
+        return this.player;
     }
 }

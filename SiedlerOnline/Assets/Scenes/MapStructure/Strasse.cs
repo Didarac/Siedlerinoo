@@ -17,4 +17,5 @@ public class Strasse : Edge
     public override bool isEdge(){
         return true;
     }
+
 }

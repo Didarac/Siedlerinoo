@@ -19,4 +19,8 @@ public class Siedlung : Building
     public override bool isStadt(){
         return false;
     }
+
+    public Player getPlayer(){
+        return this.player;
+    }
 }

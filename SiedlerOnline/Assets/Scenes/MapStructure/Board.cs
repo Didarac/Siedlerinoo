@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public Knoten[] knotens;
+
+    public Edge[] edges;
+
+    public Feld[] felds;
+
+    public FelderStash stash;
+
+    public Board (){
+        this.stash = new FelderStash();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+
+    public void initialize(){
+        //uff
     }
-}
+
+
+    }

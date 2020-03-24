@@ -19,4 +19,8 @@ public class Stadt : Building
     public override bool isStadt(){
         return true;
     }
+
+    public Player getPlayer(){
+        return this.player;
+    }
 }

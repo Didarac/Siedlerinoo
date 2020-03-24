@@ -7,11 +7,11 @@ public abstract class Edge
 {
  
 
-    public abstract bool isStrasse() {
-    
+    public virtual bool isStrasse() {
+        return false;
     }
 
-    public abstract bool isEdge(){
-       
+    public virtual bool isEdge(){
+       return true;
     }
 }

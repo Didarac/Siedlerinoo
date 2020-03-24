@@ -5,15 +5,15 @@ using UnityEngine;
 public class EmptyBuilding : Building
 {
      
-    public override isEmpty(){
+    public override bool isEmpty(){
         return true;
     }
 
-    public override isSiedlung(){
+    public override bool isSiedlung(){
         return false;
     }
 
-    public override isStadt(){
+    public override bool isStadt(){
         return false;
     }
 }

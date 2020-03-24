@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Building
+public abstract class Building
 {
-    Player player;
+    private Player player;
 
-    public abstract bool isEmpty(){
-
+    public virtual bool isEmpty(){
+        return true;
     }
-    public abstract bool isSiedlung(){
-
+    public virtual bool isSiedlung(){
+        return false;
     }
 
-    public abstract bool isStadt(){
-        
+    public virtual bool isStadt(){
+        return false;
     }
 }

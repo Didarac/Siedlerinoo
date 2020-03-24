@@ -20,7 +20,7 @@ public class Knoten
     Feld feld2;
     Feld feld3;
 public Knoten(int _hafen, Edge _adjEdge1, Edge _adjEdge2, Edge _adjEdge3, Feld _feld1, Feld _feld2, Feld _feld3){
-    this.building = EmptyBuilding();
+    this.building = new EmptyBuilding();
     this.hafen = _hafen;
 
     this.adjEdge1 = _adjEdge1;

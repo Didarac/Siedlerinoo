@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class Siedlung : Building
 {
+    private Player player;
     public Siedlung (Player _player){
         this.player = _player;
     }
-    public override isEmpty(){
+    public override bool isEmpty(){
         return false;
     }
 
-    public override isSiedlung(){
+    public override bool isSiedlung(){
         return true;
     }
 
-    public override isStadt(){
+    public override bool isStadt(){
         return false;
     }
 }

@@ -14,6 +14,7 @@ public class FelderStash
    private bool[] felder;
    private System.Random rnd;
    private int t;
+   private int[] nummern;
 
 public FelderStash(){
     bool[] felder = new bool[19];
@@ -22,6 +23,26 @@ public FelderStash(){
         felder[i] = true;
     }
     rnd = new System.Random();
+    nummern = new int[19];
+    nummern[0] = 5;
+    nummern[1] = 2;
+    nummern[2] = 6;
+    nummern[3] = 3;
+    nummern[4] = 5;
+    nummern[5] = 8;
+    nummern[6] = 10;
+    nummern[7] = 9;
+    nummern[8] = 12;
+    nummern[9] = 11;
+    nummern[10] = 4;
+    nummern[11] = 8;
+    nummern[12] = 10;
+    nummern[13] = 9;
+    nummern[14] = 4;
+    nummern[15] = 5;
+    nummern[16] = 6;
+    nummern[17] = 3;
+    nummern[18] = 11;
 }
 
 public int getRndFeldFromStash(){
